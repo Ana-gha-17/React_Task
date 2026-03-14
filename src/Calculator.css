@@ -1,0 +1,152 @@
+.calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    min-height: 100vh;
+    background-color: #0dcaf0;
+    font-family: Arial;
+}
+
+.calculator,
+.calculator * {
+    box-sizing: border-box;
+}
+
+.calculator {
+    background-color: #946fa6;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.4);
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.calculator h2 {
+    color: white;
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.calc-input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #555;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.calc-input:focus {
+    outline: none;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.op-btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 0;
+    width: 100%;
+    /* Overrides any global button width */
+    height: auto;
+    /* Overrides any global button height */
+    color: white;
+    /* Make all text white for contrast against bright colors */
+    transition: transform 0.1s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.op-btn:active {
+    transform: scale(0.95);
+}
+
+.num-7 {
+    background-color: #5559cc;
+}
+
+.num-8 {
+    background-color: #5e61d0;
+}
+
+.num-9 {
+    background-color: #5b5fcb;
+}
+
+.num-4 {
+    background-color: #5c5fc9;
+}
+
+.num-5 {
+    background-color: #6b6fd9;
+}
+
+.num-6 {
+    background-color: #5c60ce;
+}
+
+.num-1 {
+    background-color: #595dd0;
+}
+
+.num-2 {
+    background-color: #565acc;
+}
+
+.num-3 {
+    background-color: #575bc7;
+}
+
+.num-0 {
+    background-color: #5256c8;
+}
+
+/* Specific operator colors matching before */
+.add {
+    background-color: #5a5dc5;
+    color: white;
+}
+
+.sub {
+    background-color: #5458bc;
+    color: white;
+}
+
+.mul {
+    background-color: #595cb4;
+    color: white;
+}
+
+.div {
+    background-color: #5558c2;
+    color: black;
+}
+
+/* Yellow exception for contrast */
+
+.clear {
+    background-color: #685ddc;
+}
+
+.equal {
+    background-color: #4162da;
+}
+
+/* Make result input look disabled/readonly slightly */
+.result-input {
+    background-color: #f8f9fa;
+    color: #000;
+}

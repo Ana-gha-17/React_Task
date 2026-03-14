@@ -18,6 +18,22 @@ function Home() {
                     </Link>
                 </div>
 
+                <div className="section">
+                    <Link to="/timer">
+                        <button className="task-btn">
+                            Task 2
+                        </button>
+                    </Link>
+                </div>
+
+                <div className="section">
+                    <Link to="/calculator">
+                        <button className="task-btn">
+                            Task 3
+                        </button>
+                    </Link>
+                </div>
+
             </div>
 
         </div>

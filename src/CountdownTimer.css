@@ -1,0 +1,41 @@
+.countdown-container {
+    background-color: rgb(174, 140, 206);
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(213, 144, 94);
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.timer {
+    color: brown;
+    font-size: 30px;
+    margin: 0;
+
+}
+
+.item {
+    color: brown;
+    font-size: 30px;
+    margin-left: 5px;
+}
