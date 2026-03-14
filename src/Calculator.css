@@ -4,7 +4,7 @@
     align-items: center;
     padding-left: 10%;
     min-height: 100vh;
-    background-color: #0dcaf0;
+    background-color: #b3ace5;
     font-family: Arial;
 }
 
@@ -61,11 +61,8 @@
     cursor: pointer;
     padding: 15px 0;
     width: 100%;
-    /* Overrides any global button width */
     height: auto;
-    /* Overrides any global button height */
     color: white;
-    /* Make all text white for contrast against bright colors */
     transition: transform 0.1s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -75,77 +72,76 @@
 }
 
 .num-7 {
-    background-color: #5559cc;
+    background-color: #8f92ec;
 }
 
 .num-8 {
-    background-color: #5e61d0;
+    background-color: #8f92ec;
 }
 
 .num-9 {
-    background-color: #5b5fcb;
+    background-color: #8f92ec;
 }
 
 .num-4 {
-    background-color: #5c5fc9;
+    background-color: #8f92ec;
 }
 
 .num-5 {
-    background-color: #6b6fd9;
+    background-color: #8f92ec;
 }
 
 .num-6 {
-    background-color: #5c60ce;
+    background-color: #8f92ec;
 }
 
 .num-1 {
-    background-color: #595dd0;
+    background-color: #8f92ec;
 }
 
 .num-2 {
-    background-color: #565acc;
+    background-color: #8f92ec;
 }
 
 .num-3 {
-    background-color: #575bc7;
+    background-color: #8f92ec;
 }
 
 .num-0 {
-    background-color: #5256c8;
+    background-color: #8f92ec;
 }
 
-/* Specific operator colors matching before */
+
 .add {
-    background-color: #5a5dc5;
+    background-color: #8f92ec;
     color: white;
 }
 
 .sub {
-    background-color: #5458bc;
+    background-color: #8f92ec;
     color: white;
 }
 
 .mul {
-    background-color: #595cb4;
+    background-color: #8f92ec;
     color: white;
 }
 
 .div {
-    background-color: #5558c2;
-    color: black;
+    background-color: #8f92ec;
+    color: white;
 }
 
-/* Yellow exception for contrast */
+
 
 .clear {
-    background-color: #685ddc;
+    background-color: #8f92ec;
 }
 
 .equal {
-    background-color: #4162da;
+    background-color: #8f92ec;
 }
 
-/* Make result input look disabled/readonly slightly */
 .result-input {
     background-color: #f8f9fa;
     color: #000;
