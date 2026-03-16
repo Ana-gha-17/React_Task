@@ -3,7 +3,8 @@ import Home from "./Home";
 import Counter from "./Counter";
 import CountdownTimer from "./CountdownTimer";
 import Calculator from "./Calculator";
-
+import RandomColor from "./RandomColor";
+import FilterProducts from "./FilterProducts";
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +13,8 @@ function App() {
         <Route path="/counter" element={<Counter />} />
         <Route path="/timer" element={<CountdownTimer />} />
         <Route path="/calculator" element={<Calculator />} />
+        <Route path="/random-color" element={<RandomColor />} />
+        <Route path="/filter-products" element={<FilterProducts />} />
       </Routes>
     </BrowserRouter>
   );

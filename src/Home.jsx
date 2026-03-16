@@ -34,6 +34,22 @@ function Home() {
                     </Link>
                 </div>
 
+                <div className="section">
+                    <Link to="/random-color">
+                        <button className="task-btn">
+                            Task 4
+                        </button>
+                    </Link>
+                </div>
+
+                <div className="section">
+                    <Link to="/filter-products">
+                        <button className="task-btn">
+                            Task 5
+                        </button>
+                    </Link>
+                </div>
+
             </div>
 
         </div>
