@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './CountdownTimer.css';
-
 export default function CountdownTimer() {
     const [time, setTime] = useState(10);
     const [isActive, setIsActive] = useState(false);
